@@ -1,0 +1,125 @@
+/*------------------------GENERAL----------*/
+
+*{
+    margin: 0;
+}
+html {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+
+}
+ol, ul {
+    list-style: none;
+}
+
+ul {
+    display: flex;
+}
+
+ul li {
+    font-family: 'Roboto', sans-serif;
+}
+head
+{
+    height:0px;
+}
+
+/*---------------------------HEADER------------------*/
+header{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    margin-top: 0;
+    padding: 0;
+    margin-bottom: 13%;
+    -webkit-box-shadow: 4px 6px 5px 0px rgba(247,247,247,1);
+    -moz-box-shadow: 4px 6px 5px 0px rgba(247,247,247,1);
+    box-shadow: 4px 6px 5px 0px rgba(247,247,247,1);
+
+}
+
+
+div.top-header{
+    padding: 14px 20px 62px 25px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+div.logo h1{
+    font-size: 95px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+}
+
+ul.ul-top-header{
+    justify-content: space-between;
+
+}
+
+ul.ul-nav{
+    display: flex;
+    padding: 0 0 27px 25px;
+}
+
+ul.ul-nav li{                                      /* /!\ /!\ /!\ /!\ /!\ /!\ METTRE LATO EN POLICE /!\ /!\ /!\ /!\ */
+    padding: 0 22px 0 0;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+ul.ul-nav  li >button{
+    background-color: #FF0000;
+    border-color: transparent;
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+    height: 30px;
+    border-radius: 4px;
+}
+
+
+.vertical-bar{
+    display: inline-flex;
+    padding: 0 8px;
+    flex-shrink: 0;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+}
+
+.vertical-bar::after{
+    width: 1px;
+    height: 20px;
+    background-color: rgb(102, 102, 102);
+    content: "";
+}
+
+img.profil{
+    width: 38px;
+    height: 38px;
+    border-radius: 20px;
+}
+
+li.test{
+    padding-top: 10px;
+}
+
+
+/*Section video*/
+
+section.contenu{
+    max-width: 1336px;
+}
+
+
