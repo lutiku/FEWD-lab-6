@@ -33,6 +33,10 @@ head
     height:0px;
 }
 
+h1{
+    font-family: Lato;
+}
+
 /*---------------------------HEADER------------------*/
 header{
     display: flex;
@@ -40,15 +44,58 @@ header{
     height: fit-content;
     margin-top: 0;
     padding: 0;
-    margin-bottom: 13%;
-    -webkit-box-shadow: 4px 6px 5px 0px rgba(247,247,247,1);
+    margin-bottom: 5%;
+  /*  -webkit-box-shadow: 4px 6px 5px 0px rgba(247,247,247,1);
     -moz-box-shadow: 4px 6px 5px 0px rgba(247,247,247,1);
     box-shadow: 4px 6px 5px 0px rgba(247,247,247,1);
+
+   */
 
 }
 
 
-div.top-header{
+
+nav{
+    padding-top: 40px;
+    //border-bottom: solid 0.25px black;
+    -webkit-box-shadow: 0px 2px 5px 3px rgba(247,247,247,1);
+    -moz-box-shadow: 0px 2px 5px 3px rgba(247,247,247,1);
+    box-shadow: 0px 2px 5px 3px rgba(247,247,247,1);
+}
+span.logo{
+    font-size: 20px;
+    font-family: times;
+}
+
+div.menu{
+    width: 25vw;
+
+}
+
+div.menu p{
+    text-transform: uppercase;
+    font-size: 13px;
+    color: gray;
+}
+
+div.text p{
+    color: gray;
+}
+
+img.illustration{
+    width: 40%;
+}
+video{
+    width: 100%;
+    height: 100%;
+}
+video:focus{
+
+    border-color: transparent;
+}
+
+
+/*div.top-header{
     padding: 14px 20px 62px 25px;
     display: flex;
     justify-content: space-between;
@@ -71,7 +118,10 @@ ul.ul-nav{
     padding: 0 0 27px 25px;
 }
 
-ul.ul-nav li{                                      /* /!\ /!\ /!\ /!\ /!\ /!\ METTRE LATO EN POLICE /!\ /!\ /!\ /!\ */
+ */
+
+/*
+ul.ul-nav li{
     padding: 0 22px 0 0;
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
@@ -118,8 +168,74 @@ li.test{
 
 /*Section video*/
 
+
+
 section.contenu{
+    margin: auto;
     max-width: 1336px;
+    background-color: white;
+    height: 80vh;
+    /*-webkit-box-shadow: 0px 2px 5px 3px rgba(247,247,247,1);
+    -moz-box-shadow: 0px 2px 5px 3px rgba(247,247,247,1);
+    box-shadow: 0px 2px 5px 3px rgba(247,247,247,1);
+
+     */
 }
 
+div.text, div.video {
+    width: 50%;
+   // background-image: url("https://i.pinimg.com/564x/7d/55/f5/7d55f5b16bc18cb5af47d57f26e825d7.jpg");
+
+
+}
+
+h1.hello{
+    font-size: 80px;
+    padding-top: 80px;
+    //padding-bottom: 30px;
+    //font-family: 'Playfair Display SC', serif;
+}
+div.text{
+    //background-image: url("https://i.pinimg.com/564x/7d/55/f5/7d55f5b16bc18cb5af47d57f26e825d7.jpg");
+    padding-left: 120px;
+
+}
+
+
+div.video{
+   // height: 60vh;
+    //width: 20vw;
+    //background-color: orangered;
+   // background-image: url("https://i.pinimg.com/564x/7d/55/f5/7d55f5b16bc18cb5af47d57f26e825d7.jpg");
+}
+iframe{
+    width: 100%;
+    height: 100%;
+}
+button.btn{
+    background-color: black;
+    border-color: transparent;
+    color: white;
+
+    margin-top: 5%;
+}
+
+div.text-content{
+    padding-bottom: 40px;
+}
+div.bar{
+    position: absolute;
+    display: inline-flex;
+    padding: 0 8px;
+    flex-shrink: 0;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+}
+
+div.bar::after{
+    width: 130px;
+    height: 1px;
+    background-color: rgb(238 92 54);
+    content: "";
+}
 
