@@ -238,4 +238,15 @@ div.bar::after{
     background-color: rgb(238 92 54);
     content: "";
 }
+div.form{
+    text-align: center;
+}
 
+form{
+    padding: 12vh 0 0 7vw;
+}
+
+form input{
+    border-style: none none solid;
+    border-color: black;
+}
