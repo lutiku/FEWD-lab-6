@@ -164,8 +164,8 @@ button.btn{
 /*--------------------------------------DIV FORM--------------------------*/
 div.form{
     text-align: center;
-    padding-top: 18vh;
-    margin-bottom: 10vh;
+    padding-top: 15.5vh;
+    margin-bottom: 6vh;
 }
 
 form{
@@ -205,25 +205,41 @@ form button.btn.btn-dark{
 /*_____________________DIV VOTE____________________*/
 div.vote{
     align-items: center;
+    text-align: center;
+
+    padding: 0px 20px 16px;
+    margin-left: 10vw;
+}
+
+div.vote p{
+    font-style: italic;
+    font-size: 14px;
+
+}
+
+div.jauge{
+    margin-bottom: 10px;
+}
+
+.bg-70{
+    background-color: black !important;
+}
+
+.bg-30{
+    background-color: #ee5d36 !important;
 }
 
 span.reference{
     font-size: 10px;
     text-decoration: underline;
+    color: gray;
 }
 
-#bar{
-    -webkit-appearance: none;
-}
 
-#bar::-webkit-progress-bar {
-    color: black;
-    background-color: orangered;
-
-}
 
 div.vote-buttons{
-    width: 25%;
+    width: 35%;
+    margin: auto;
 }
 
 button.lame{
